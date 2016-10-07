@@ -1,3 +1,3 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/tgreenidge/pen/VKydvA.
+A Pen created at CodePen.io. You can find this one at http://codepen.io/tgreenidge/full/VKydvA.
 
  
