@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Random Quote Generator</title> 
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Shadows+Into+Light'>
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Slabo+27px'>
+    <link rel="stylesheet" href="css/style.css">  
+  </head>
+
+  <body>
+
+    <div class="container-fluid">
+      <h1 class="text-center heading">Random Quotes of a Computer Scientist</h1>
+      <div class = "quotations text-center jumbotron center-block">
+        <div id="quotes">
+          Click the button below to get a quote
+        </div>
+        <button id = "tweetBtn" class = "btn qbtn" onclick="tweetQuote()">
+          Tweet this quote
+        </button>
+        <button id = "getQuote" class = "btn qbtn" onclick="printQuotes()">
+          Get Quote
+        </button> 
+      </div>
+      <div class="text-center credits">
+        Quotes generated via the use of the <a href= "http://quotes.stormconsultancy.co.uk/api" target="_blank">Storm Consultancy API </a>
+      </div> 
+      <div class="text-center">
+        Created by Tisha Greenidge <span class="glyphicon glyphicon-copyright-mark"></span>2016
+      </div>
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+    <script src="js/index.js"></script>    
+  </body>
+</html>

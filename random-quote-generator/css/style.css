@@ -1,0 +1,37 @@
+#quotes{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 20px; 
+}
+
+body{
+  background-color: #078fa1;
+  color: #f1da2e;
+}
+
+.heading{
+  margin: 50px;
+  font-family: 'Slabo 27px', serif;
+}
+.quotations {
+  background-color: #a11f61;
+  height: 100%;
+  width: 50%; 
+}
+
+.qbtn{
+  background-color: #24a8ba;
+  color: #ee1684;
+  margin-top: 20px;
+}
+
+.qbtn a{
+  color: #ee1684; 
+}
+.credits a {
+  color: #f1da2e;
+}
+
+#tweetBtn{
+  display: none;
+}
+
